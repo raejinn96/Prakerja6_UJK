@@ -14,4 +14,11 @@ type Users struct{
 func main() {
 
 	e := echo.New()
+	
+	e.GET("/profile", profile)
+	e.Start(":8000")
+}
+
+func profile(c echo.Context) error {
+	return c.JSON(200, "Good") 
 }
