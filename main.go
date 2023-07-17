@@ -2,7 +2,6 @@ package main
 
 import (
 	// "fmt"
-	"prakerja6/profile"
 )
 
 type Users struct{
@@ -11,6 +10,5 @@ type Users struct{
 }
 
 func main() {
-	profile.Tampil()
-	
+
 }
